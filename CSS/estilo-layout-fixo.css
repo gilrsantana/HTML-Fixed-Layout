@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-feature-settings: "Times New Roman", Times, serif;
+	font-size: 1em;
+}
+
+body {
+	background: #FFF;
+}
+
+#corpo {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff url(../Imagens/coluna.png) repeat-y top left;
+
+}
+
+#topo {
+	background: #225992 url(../Imagens/cabecalho2.jpg);
+	height: 250px; /* colocar o line-height na mesma medida*/
+}
+
+#marca {
+	color: white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #225992;
+	font-weight: 900;
+	font-size: 8em;
+	text-align: center;
+	line-height: 250px; /* colocar na mesma medida do height */
+}
+
+#conteudo {
+	float: right;
+	width: 720px;
+	background: #d4ddf8;
+}
+
+#esquerda {
+	float: left;
+	width: 120px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	
+}
+
+#direita {
+	float: right;
+	width: 180px;
+	height: auto;
+}
+
+#principal {
+	width: 500px;
+	float: left;
+	padding: 0 15px 15px 15px;
+	background: white;
+}
+
+#rodape {
+	clear: both;
+	text-align: center;
+	background: lightgray;
+	padding: 20px;
+	margin-bottom: 20px;
+	font-size: 0.8em;
+}
+
+.titulo-direita {
+	margin: 20px;
+	font-size: 1.2em;
+}
+
+.post-direita {
+	padding: 0px 20px 20px 20px;
+}
+
+.menu-esquerda {
+	margin: 30px;
+}
+
+ul.menu-esquerda {
+	list-style: none;
+}
+
+ul.menu-esquerda li {
+	margin: 8px;
+	
+}
+
+ul.menu-esquerda li a {
+	text-decoration: none;
+	color: #225992;
+	font-weight: 800;
+}
+
+#principal h2 {
+	margin: 15px 0 10px 0;
+	font-size: 1.2em;
+
+}
+
+h2, h3, h6, li {
+	color: #225992;
+}
+
+.imagem-principal {
+	width: 480px;
+	padding: 10px;
+}
